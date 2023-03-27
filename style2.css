@@ -192,10 +192,14 @@
         display: flex;
         flex-direction: column;
     }
+    .sectionimg{
+        margin-bottom: 50px;
+      }
 
     .contenedores{
         flex-direction:column;
-        height: 1560px;
+        height: auto;
+        gap: 40px;
     }
     .div1h3{
     justify-content: center;
@@ -266,10 +270,14 @@
         flex-direction: column;
     }
     /* ------------------------------ */
-
+  .sectionimg{
+    margin-bottom: 50px;
+  }
     .contenedores{
         flex-direction:column;
-        height: 1560px;
+        height: auto;
+        height: 2000px;
+        gap: 40px;
     }
     .div1h3{
     justify-content: center;
