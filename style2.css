@@ -276,7 +276,6 @@
     .contenedores{
         flex-direction:column;
         height: auto;
-        height: 2000px;
         gap: 40px;
     }
     .div1h3{
