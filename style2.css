@@ -291,16 +291,21 @@
 
     .UltimoSection{
         flex-direction: column;
-        height: 700px;
+        height: 100%;
     }
     .divizquierda{
-        height: 900px;
+        height: 400px;
         width: 90%;
     }
     .divderecha{
         height: 700px;
         width: 90%;
     }
+    .Computador{
+        width: 80px;
+    
+    }
+  
 }
 
 
