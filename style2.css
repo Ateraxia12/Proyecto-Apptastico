@@ -269,7 +269,7 @@
         display: flex;
         flex-direction: column;
     }
-    /* ------------------------------ */
+
   .sectionimg{
     margin-bottom: 50px;
   }
@@ -291,10 +291,10 @@
 
     .UltimoSection{
         flex-direction: column;
-        height: 900px;
+        height: 700px;
     }
     .divizquierda{
-        height: 700px;
+        height: 900px;
         width: 90%;
     }
     .divderecha{
