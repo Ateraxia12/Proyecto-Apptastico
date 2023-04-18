@@ -219,7 +219,15 @@
     .sectionimg{
         margin-bottom: 50px;
       }
-
+      .divContenedor1{
+        width: 300px;
+      }
+      .divContenedor2{
+        width: 300px;
+      }
+      .divContenedor3{
+        width: 300px;
+      }
     .contenedores{
         flex-direction:column;
         height: auto;
@@ -317,15 +325,6 @@
 
   .sectionimg{
     margin-bottom: 50px;
-  }
-  .divContenedor1{
-    width: 300px;
-  }
-  .divContenedor2{
-    width: 300px;
-  }
-  .divContenedor3{
-    width: 300px;
   }
     .contenedores{
         flex-direction:column;
