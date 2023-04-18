@@ -229,16 +229,19 @@
 /* ----------------------- */
 
 @media screen and (max-width:480px) {
-    
-    *{
-        margin:0px;
-    }
 
     .header{
+        height: 300px;
+    }
+    .logodiv{
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .logo{
+        height:50px;
     }
     .iphonePADRE{
         display: flex;
@@ -247,23 +250,41 @@
     .iphone{
         width: 250px;
     }
-    .nav1{
-        display: flex;
-        justify-content: center;
+    .divnav{
+       width: 200px;
+       height: 200px;
     }
-    .ul{
-        margin: 0;
+    .nav1{
+       width: 100%;
+       line-height: 40px;
+
+    }
+    ul{
         display: flex;
-    justify-content: end;
-    } 
+        flex-direction: column;
+        align-items: center;
+    }
+    .ul li {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
     ul li a{
+        padding: 0px;
         font-size:20px;
     }
+  
     .home{
         width: 80px;
     }
+    .h1{
+        font-size: 299%;
+        width: 100%;
+        text-align: center;
+    }
     .divWeDesign{
         width: 100%;
+        text-align: center;
         }
     .sectionIphone{
         display: flex;
@@ -272,6 +293,15 @@
 
   .sectionimg{
     margin-bottom: 50px;
+  }
+  .divContenedor1{
+    width: 300px;
+  }
+  .divContenedor2{
+    width: 300px;
+  }
+  .divContenedor3{
+    width: 300px;
   }
     .contenedores{
         flex-direction:column;

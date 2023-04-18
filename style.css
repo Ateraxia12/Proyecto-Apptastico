@@ -13,14 +13,24 @@
 .logo{
     display: flex;
 }
+.nav1{
+    width: 500px;
+    display: flex;
+    
+}
 ul{
     display: flex;
+    width: 404px;
+    justify-content: space-evenly;
+    padding: 0px;
+    
 }
 ul li {
     display: flex;
     list-style:none;
     display: flex;
-    padding-left: 15%;
+   
+  
 }
 ul li a{
     display: flex;
